@@ -2,7 +2,7 @@
 
 ## Breve descripción
 
-Primera práctica de la asignatura _Tipología y ciclo de vida de los datos_ del Master Ciencia de Datos de la _Universidad Oberta de Catalunya_. Se aplican técnicas de _web scraping_ para extraer la información meteorológica de todos los municipios de España de la página web de la Agencia Nacional de Meteorología (AEMET). En particular, se extrae la información de la pestaña últimos datos, permitiendo al usuario seleccionar el número de días de los que quiere descargar la información. (AEMET permite la descarga de los datos de hasta los 7 días previos al día de consulta)
+Primera práctica de la asignatura _Tipología y ciclo de vida de los datos_ del Master Ciencia de Datos de la _Universidad Oberta de Catalunya_. Se aplican técnicas de _web scraping_ para extraer la información meteorológica de todos los municipios de España de la página web de la Agencia Nacional de Meteorología (AEMET). En particular, se extrae la información de la pestaña últimos datos, permitiendo al usuario seleccionar el número de días de los que quiere descargar la información. (AEMET permite la descarga de los datos de hasta los 7 días previos al día de consulta). Además, también permite descargar el mapa de la temperatura del agua del mar, en caso de que el usuario así lo quiera.
 
 ## Archivos del código y ejecución
 
@@ -14,9 +14,11 @@ Para ejecutar, se corre el archivo main.py. Posteriormente, en la consola se pre
 1. La opción 1 busca el botón de los csv en la web de AEMET y descarga la información desde dicho link. Luego agrupa todos los datos en un único archivo y realiza una limpieza preliminar de los datos.
 2. La opción 2 busca en el html de la página web toda la información necesaria. Agrupa toda la infomación en un único archivo y realiza una limpieza preliminar de los datos.
 
+Finalmente, preguntará al usuario si desea descargar el mapa de temperatura del agua del mar
+
 ## Librerías necesarias
 
-- **urllib** (en particular urllib.request)
+- **urllib**
 - **bs4**
 - **pandas**
 - **numpy**
