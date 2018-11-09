@@ -16,6 +16,8 @@ Para ejecutar, se corre el archivo main.py. Posteriormente, en la consola se pre
 
 Finalmente, preguntará al usuario si desea descargar el mapa de temperatura del agua del mar
 
+Para consultar sobre la licencia y la estructura de los datos, accede a la carpeta informacion y lee el documento que contiene.
+
 ## Librerías necesarias
 
 - **urllib**
